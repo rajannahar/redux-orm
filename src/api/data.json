@@ -3,23 +3,23 @@
 
     {
       "id": 1,
-      "author": "Karen Franklin",
+      "name": "Karen Franklin",
       "title": "Compensation Analyst"
     }, {
       "id": 2,
-      "author": "Brenda Carter",
+      "name": "Brenda Carter",
       "title": "Structural Engineer"
     }, {
       "id": 3,
-      "author": "Jessica Lopez",
+      "name": "Jessica Lopez",
       "title": "Account Executive"
     }, {
       "id": 4,
-      "author": "Mary Coleman",
+      "name": "Mary Coleman",
       "title": "VP Accounting"
     }, {
       "id": 5,
-      "author": "Phyllis Bryant",
+      "name": "Phyllis Bryant",
       "title": "Marketing Assistant"
     }
 
