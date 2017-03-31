@@ -12,6 +12,8 @@ import { Provider } from "react-redux";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
+console.log("red ", reducer);
+
 const store = createStore( 
 	reducer,
 	composeEnhancers(applyMiddleware(  
@@ -19,7 +21,7 @@ const store = createStore(
 	))
 );
 
-console.log(store);
+/*console.log(store);*/
 
 store.dispatch(loadMockData()); 
 
