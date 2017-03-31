@@ -4,31 +4,30 @@ import App from './App';
 import './index.css';
 
 
-
-
-
 import {loadMockData} from './actions/actions';
 import thunkMiddleware from 'redux-thunk';
-import orm from './orm/orm';
 import {createStore, applyMiddleware, compose} from 'redux';
-import rootReducer from './reducers/rootReducer'; 
+import reducer from './reducers/reducer';
+import { Provider } from "react-redux";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store = createStore( 
-	rootReducer,
+	reducer,
 	composeEnhancers(applyMiddleware(  
 		thunkMiddleware 
 	))
 );
 
+console.log(store);
+
 store.dispatch(loadMockData()); 
 
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+	<Provider store={store}>
+		<App />
+	</Provider>,
+	document.getElementById('root')
 );
 
-
-console.log("jkk");

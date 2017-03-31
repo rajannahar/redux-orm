@@ -15,7 +15,7 @@ const data = {
         ],
         "publisher" : {
           "id" : 1,
-          "name" : "Hogwarts Inc"
+          "name" : "Hogwarts Ltd"
         }
       },
 
@@ -50,8 +50,26 @@ const data = {
           }
         ],
         "publisher" : {
-          "id" : 3,
+          "id" : 2,
           "name" : "Gandalf Inc"
+        }
+      }, 
+
+      {
+        "id" : 4,
+        "title": "Hobbit gang",
+        "authors" : [
+          {
+            "id" : 2,
+            "name" : "Dobby"
+          }, {
+            "id" : 5,
+            "name" : "Gimli"
+          }
+        ],
+        "publisher" : {
+          "id" : 3,
+          "name" : "Orc Squad"
         }
       }
       

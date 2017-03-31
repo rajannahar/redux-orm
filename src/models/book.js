@@ -10,6 +10,7 @@ class Book extends Model {
 				});
 
 				break;
+			default:
 		}
 	}
 };

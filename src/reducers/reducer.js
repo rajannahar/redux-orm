@@ -5,8 +5,9 @@ import orm from '../orm/orm';
 
 const ormReducer = createReducer(orm);
 
-const rootReducer = combineReducers({
+const reducer = combineReducers({
 	orm: ormReducer
 });
 
-export default rootReducer; 
+
+export default reducer; 

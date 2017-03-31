@@ -1,5 +1,8 @@
 import data from './dummyData';
 
 export function fetchData() {
-	return Promise.resolve(data);
+	return new Promise((resolve, reject) => {
+		resolve(data);
+		reject(reject);
+	});
 }

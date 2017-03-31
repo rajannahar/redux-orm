@@ -1,4 +1,4 @@
-import {fk, many, attr, Model} from 'redux-orm';
+import {attr, Model} from 'redux-orm';
 
 class Publisher extends Model {
 	static reducer(action, Publisher, session) {

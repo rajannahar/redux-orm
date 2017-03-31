@@ -1,4 +1,4 @@
-import {fk, many, attr, Model} from 'redux-orm';
+import {attr, Model} from 'redux-orm';
 
 class Author extends Model {
 	static reducer(action, Author, session) {
@@ -13,7 +13,6 @@ class Author extends Model {
 						}
 					})
 				})
-
 				break;
 		}
 	}
