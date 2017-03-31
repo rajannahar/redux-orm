@@ -24,15 +24,15 @@ const data = {
         "title": "Lord of the rings",
         "authors" : [
           {
-            "id" : 1,
+            "id" : 3,
             "name" : "Merry"
           }, {
-            "id" : 2,
+            "id" : 4,
             "name" : "Pippin"
           }
         ],
         "publisher" : {
-          "id" : 1,
+          "id" : 2,
           "name" : "Gandalf Inc"
         }
       },
@@ -42,15 +42,15 @@ const data = {
         "title": "Lord of Hogwarts",
         "authors" : [
           {
-            "id" : 1,
+            "id" : 2,
             "name" : "Dobby"
           }, {
-            "id" : 2,
+            "id" : 4,
             "name" : "Pippin"
           }
         ],
         "publisher" : {
-          "id" : 1,
+          "id" : 3,
           "name" : "Gandalf Inc"
         }
       }
